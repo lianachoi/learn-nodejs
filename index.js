@@ -12,3 +12,6 @@ const server = http.createServer((req, res) => {
  server.listen(8080, () => {
     console.log("Server On");
  });   
+
+
+ // 정적 파일 서빙 => *.html
